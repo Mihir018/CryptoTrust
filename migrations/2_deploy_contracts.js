@@ -1,5 +1,6 @@
-var SimpleStorage = artifacts.require("./SimpleStorage.sol");
+const Token = artifacts.require("./Token.sol");
+require("dotenv").config({ path: "../.env" });
 
-module.exports = function(deployer) {
-  deployer.deploy(SimpleStorage);
+module.exports = function (deployer) {
+  deployer.deploy(Token, process.env.INITIAL_TOKENS);
 };
