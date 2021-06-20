@@ -1,3 +1,15 @@
+## About
+  In our project we are creating an ICO with the help of ERC20 tokens, and ERC721 tokens (NFT). So whenever the investor is funding the company it goes to a contract, instead going straight to the company. Whenever the company want to take the money out, they need to request the contract for money. In request they would specify
+1. Amount
+2. a reason or the use of that money
+3. public address of the account/s where they are going to spend the money on.
+
+  As smart contract works , based on the voting poll if the permission is given by more than 50% of the investors, only then the owner will be able to use the       money, which only will happen when the request made by company seems trustworthy.
+  
+  ## USP
+  We are introducing the NFT in this project , i.e. each investor will be provided with NFT tokens , based upon their investment. Furthur we are also implementing   KYC verification for the investors, on completion of which a NFT token (which will indicate their verification) will be given to him/her.
+  Our main feature is the voting system on which the actions of company can be visible, thus making it a trustworthy ICO.
+
 ## PreInstallation
 - Install with [truffle](https://www.trufflesuite.com/): `npm install -g truffle`
 
@@ -15,6 +27,7 @@ Several quick start options are available:
   - React and Redux
   - Solidity and Smartpy
   - Tezos chain
+  - we have developed smart-contracts on smartpy using tezos network (https://github.com/MihirK018/CryptoTrust/tree/mihir/smartpy_contracts)
   
 
 ## Contribute
