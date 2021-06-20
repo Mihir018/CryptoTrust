@@ -1,4 +1,4 @@
-### PreInstallation
+## PreInstallation
 - Install with [truffle](https://www.trufflesuite.com/): `npm install -g truffle`
 
 ## Quick start
@@ -15,6 +15,7 @@ Several quick start options are available:
   - React and Redux
   - Solidity and Smartpy
   - Tezos chain
+  
 
 ## Contribute
 
