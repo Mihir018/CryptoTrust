@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+<<<<<<< HEAD
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
@@ -13,6 +14,15 @@
     "react-router-bootstrap": "^0.25.0",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
+=======
+    "react": "16.11.0",
+    "react-bootstrap": "^1.6.1",
+    "react-dom": "16.11.0",
+    "react-router-bootstrap": "^0.25.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.2.0",
+    "web3": "1.2.2"
+>>>>>>> 0294a12801119cc2e22a7559f5efa3279b9cfeb1
   },
   "scripts": {
     "start": "react-scripts start",
