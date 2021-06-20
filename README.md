@@ -11,6 +11,11 @@ Several quick start options are available:
 - Install with [npm](https://www.npmjs.com/): `npm run client-install`
 - Install with [npm](https://www.npmjs.com/): `npm run`
 
+## Technology-Used
+  - React and Redux
+  - Solidity and Smartpy
+  - Tezos chain
+
 ## Contribute
 
 Contributions welcome!
